@@ -1,0 +1,11 @@
+import turtle
+t= turtle.Pen()
+turtle.bgcolor("black")
+t.speed(0)
+sides = eval(raw_input("Enter a number of sides between 2 and 6: "))
+color = ["red","green","blue", "yellow","orange","purple"]
+for i in range(100):
+    t.pencolor(color[i%sides])
+    t.forward(2*i)
+    t.left(360/sides)
+    t.width(i/20)
