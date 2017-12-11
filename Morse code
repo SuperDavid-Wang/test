@@ -8,4 +8,4 @@ for i in range(100):
     t.pencolor(color[i%sides])
     t.forward(2*i)
     t.left(360/sides)
-    t.width(i/20)
+
