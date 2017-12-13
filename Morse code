@@ -7,5 +7,5 @@ color = ["red","green","blue", "yellow","orange","purple"]
 for i in range(100):
     t.pencolor(color[i%sides])
     t.forward(2*i)
-    t.left(720/sides)
+    t.left(72/sides)
 
